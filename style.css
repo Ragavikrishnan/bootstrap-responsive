@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.home{
+    background-image:url(home-background.jpg) ;
+    position:relative;
+    height: 100vh;
+    background-repeat: repeat-y;
+    background-size:100%;
+
+}
+
+.nav-link,.btn1{
+    padding:0.3rem;
+    font-size:1.1rem;
+}
+.btn1{
+    background-color: rgba(37, 31, 31, 0.358);
+    border:1px solid white;
+    border-radius: 1rem;
+}
+.nav-link:hover,.btn1:hover{
+    background-color: rgb(253, 204, 10);
+    border-radius: 1rem;
+}
+
+h1{
+    font-size:5rem;
+
+}
+.my-custom-row{
+    position: absolute;
+    bottom:7rem;
+    padding:0 13rem;
+    font-size:1.2rem;
+    
+}
+#about-head,#project-head{
+    font-size:3rem;
+    text-align: center;
+    padding:2rem;
+    padding-bottom:0;
+}
+.lorem-about{
+    color:black;
+    padding:1rem 10rem 4rem 10rem;
+    text-align: center;
+}
+.project{
+    background-image:url(project-background.avif) ;
+}
+.img-row img{
+    width:100%;
+    object-fit: cover;
+    height:20rem;
+}
+.img-row{
+    padding:0px 12px;
+}
+.img-emp{
+    width:10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.carousal-emp{
+    top:2rem;
+    color: white !important;
+}
+.back-img{
+    height:80vh;
+}
+.girl-name{
+    font-size:1.2rem;
+}
+.girl-work{
+    font-size:2.5rem;
+}
+.lorem2{
+    font-size: 1rem;
+    background-color: rgba(42, 39, 39, 0.3);
+}
+.pt-lg-5 {
+    padding-top: 0!important;
+}
+.latest-news{
+    color: white;
+}
+.card1{
+    background-color: rgba(252, 251, 251, 0.937);
+}
+.card1:hover{
+    width: 19rem !important;
+    background-color: white;
+}
+.count{
+    margin: 0 !important;
+    padding:2rem 20rem;
+}
+.count .col{
+    font-size:3rem;
+    font-weight:700;
+}
+.count p{
+    margin: 0 !important;
+}
+.v-line{
+    border-left:1px solid white;
+    height:10rem;
+}
+#team{
+    background-image:url(project-background.avif);
+}
+.emp-profile{
+    width:8rem;
+    height:8rem;
+    border-radius: 50%;
+    float: left;
+}
+.round{
+    height:2rem;
+    width:2rem;
+    border:0.1rem solid;
+    border-radius: 50%;
+    padding:0.1rem;
+   
+}
+.round-par1,.round-par2,.round-par3{
+    width:6rem;
+}
+.content-profile1 p,.content-profile2 p,.content-profile3 p{
+    margin-bottom:0.2rem !important;
+
+}
+.content-profile1,.content-profile2,.content-profile3{
+    padding:1.2rem;
+    padding-left:10rem;
+}
+.round-par1,.round-par2,.round-par3{
+    margin:0.3rem 0.5rem;
+}
+.content-profile1 .name-emp,.content-profile2 .name-emp,.content-profile3 .name-emp{
+    font-size:1.5rem;
+    font-weight:600;
+
+}
+.content-profile1 .work-emp,.content-profile1 .round{
+    font-size:1.1rem;
+    color:rgb(254, 8, 8);
+    border-color: rgb(254, 8, 8);
+}
+.content-profile2 .work-emp,.content-profile2 .round{
+    font-size:1.1rem;
+    color:rgb(253, 204, 10);
+    border-color: rgb(253, 204, 10);
+}
+.content-profile3 .work-emp,.content-profile3 .round{
+    font-size:1.1rem;
+    color:blue;
+    border-color: blue;
+}
+.round-par1, .round-par2, .round-par3 {
+    margin-left:0!important;
+    margin-top:1rem!important;
+}
+.label{
+    padding:1rem 0;
+}
+.inbox{
+    width:100%;
+    border:0.1rem solid black;
+    border-radius:0.5rem;
+    font-size:1rem;
+    padding:0.5rem;
+}
+.inbox-big{ 
+    height:10rem;
+}
+.btn3{
+    padding:0.5rem 3rem;
+    margin:2rem;
+}
+
+@media(max-width:992px)
+{
+    h1{
+        font-size:2.2rem;
+    
+    }
+    .my-custom-row{
+        position: absolute;
+        bottom:5rem;
+        padding:0;
+        font-size:1.1rem;
+        
+    }
+    .home{
+        height: 80vh;
+    }
+    .lorem-about{
+        padding:0rem 0rem 3rem 0rem;
+        font-size:0.8rem;
+    }
+    .nav-link,.btn1{
+        padding:0.5em;
+        font-size:0.6rem;
+    }
+    .img-emp{
+        width:5rem;
+        height:5rem;
+        border-radius: 50%;
+    }
+   
+    .back-img{
+        height:50vh;
+    }
+    .girl-name{
+        font-size:0.7rem;
+    }
+    .girl-work{
+        font-size:1.2rem;
+    }
+    .lorem2{
+        font-size:0.4rem;
+        background-color: rgba(42, 39, 39, 0.3);
+    }
+    .d-none {
+        display: block!important;
+    }
+    .m-5 {
+        margin: 1rem !important;
+    }
+    .count{
+        padding:0;
+    }
+    .count .col{
+        font-size:1rem;
+        font-weight:500;
+    }
+    
+    .v-line{
+        border-left:1px solid white;
+        height:5rem;
+    }
+    
+    .content-profile1,.content-profile2,.content-profile3{
+        padding:0.5rem;
+        padding-left:6rem;
+    }
+    .emp-profile{
+        width:5rem;
+        height:5rem;
+       
+    }
+    .content-profile1 .name-emp,.content-profile2 .name-emp,.content-profile3 .name-emp{
+        font-size:1rem;
+ 
+    }
+    .round{
+        width:0.1rem;
+        height: 1.5rem;
+        border:0.1rem solid;
+        padding:0rem;
+       
+    }
+    .content-profile1 .work-emp,.content-profile1 .round{
+        font-size:0.8rem;
+       
+    }
+    .content-profile2 .work-emp,.content-profile2 .round{
+        font-size:0.8rem;
+       
+    }
+    .content-profile3 .work-emp,.content-profile3 .round{
+        font-size:0.8rem;
+      
+    }
+    .skills-emp{
+        font-size:0.8rem;
+      
+    }
+    .round-par1, .round-par2, .round-par3 {
+        margin-left:0 !important;
+        width:5rem;
+    }
+    
+   
+}
